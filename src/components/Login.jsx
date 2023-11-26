@@ -4,7 +4,8 @@ import styled from "styled-components";
 export default function Login() {
   const handleClick = () => {
     const clientId = "17fcb8e4f5e547d1b4d76100bb0550d0";
-    const redirectURL = "https://itsnileshgosavi.github.io/Spotify-Clone-React-Project/";
+    const redirectURL =
+      "https://itsnileshgosavi.github.io/Spotify-Clone-React-Project/";
     const apiurl = "https://accounts.spotify.com/authorize";
     const scope = [
       "user-read-email",
@@ -25,7 +26,7 @@ export default function Login() {
         src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Black.png"
         alt="Spotify_logo"
       />
-      <button onClick={handleClick}>Connect Spotify</button>
+      <button onClick={handleClick}>Login to Spotify</button>
     </Container>
   );
 }
