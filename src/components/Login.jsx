@@ -7,6 +7,7 @@ export default function Login() {
     const redirectURL ="https://itsnileshgosavi.github.io/Spotify-Clone-React-Project";
     const apiurl = "https://accounts.spotify.com/authorize";
     const scope = [
+      "streaming",
       "user-read-email",
       "user-read-private",
       "user-modify-playback-state",
