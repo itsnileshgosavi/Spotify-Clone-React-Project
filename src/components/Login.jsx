@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export default function Login() {
   const handleClick = () => {
-    const clientId = "1057d420adec64095904ebee27e73f91d";
+    const clientId = "057d420adec64095904ebee27e73f91d";
     const redirectURL ="https://itsnileshgosavi.github.io/Spotify-Clone-React-Project";
     const apiurl = "https://accounts.spotify.com/authorize";
     const scope = [
