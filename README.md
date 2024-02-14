@@ -23,3 +23,5 @@ Make sure to set up a Spotify Developer account and obtain API credentials for a
 Acknowledgments
 
 Special thanks to Kishan Sheth for creating a tutorial about this on YouTube. Thank you, Spotify for providing a robust API that enhances the functionality of this music player. Feel the rhythm, control the beats — enjoy your personalized Spotify experience with this React-powered music player!
+
+Please note: Spotify does not allow to make post/put request on their API hence some features may not work unless the client is verified.
